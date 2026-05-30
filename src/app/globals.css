@@ -24,3 +24,87 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ── リッチテキスト（microCMS 本文）用スタイル ── */
+.prose-essay {
+  color: #3a2a20;
+  font-size: 1rem;
+  line-height: 1.9;
+  word-break: break-word;
+}
+
+.prose-essay h1,
+.prose-essay h2,
+.prose-essay h3,
+.prose-essay h4 {
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+  color: #2a1a10;
+}
+
+.prose-essay h2 { font-size: 1.5rem; }
+.prose-essay h3 { font-size: 1.25rem; }
+.prose-essay h4 { font-size: 1.1rem; }
+
+.prose-essay p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+.prose-essay img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  margin: 2em auto;
+  display: block;
+}
+
+.prose-essay a {
+  color: #7a5a4a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose-essay a:hover {
+  color: #5c3d2e;
+}
+
+.prose-essay ul,
+.prose-essay ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.prose-essay li {
+  margin-bottom: 0.4em;
+}
+
+.prose-essay blockquote {
+  border-left: 3px solid #c8b8a8;
+  margin: 2em 0;
+  padding: 0.5em 0 0.5em 1.5em;
+  color: #7a6a5a;
+  font-style: italic;
+}
+
+.prose-essay pre {
+  background: #f0ebe4;
+  border-radius: 0.5rem;
+  padding: 1.25em;
+  overflow-x: auto;
+  margin-bottom: 1.5em;
+}
+
+.prose-essay code {
+  background: #f0ebe4;
+  border-radius: 0.25rem;
+  padding: 0.15em 0.4em;
+  font-size: 0.9em;
+}
+
+.prose-essay pre code {
+  background: none;
+  padding: 0;
+}
